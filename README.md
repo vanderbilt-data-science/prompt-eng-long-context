@@ -1,4 +1,4 @@
-# prompt-eng-long-context
+# Prompt Engineering
 Prompt engineering powered by long contexts
 
 # https://bit.ly/long-context
