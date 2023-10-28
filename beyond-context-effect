@@ -1,0 +1,9 @@
+When a chat conversation exceeds the context length that a chat model can remember and process, a few things can happen:
+
+The model may start to repeat itself or lose the thread of the conversation, since it can't remember the full context. This can make the responses seem less coherent or relevant.
+The model may provide more generic, vague responses since it doesn't have enough context to provide specific, tailored responses.
+The model may contradict itself or provide inconsistent responses, since it can't remember what it previously said.
+The model may ask the user to restate or rephrase parts of the conversation, so it can reset and refocus with less context to process.
+The model may indicate in some way that its context is limited, such as saying "Sorry, I'm having trouble following this full conversation. Could we restart our chat?"
+In some cases, the chat model may attempt to summarize or condense the context, dropping older parts of the conversation. But this can result in losing important details.
+The maximum context length varies across chat models based on their design and training. More capable models can handle longer context. But at some point, their performance will degrade without the full conversation history. So keeping chat conversations focused and reasonably concise tends to produce the best results.
