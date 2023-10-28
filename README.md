@@ -121,6 +121,9 @@ Why did it fail?
 
 Was the model trained when we ran the training prompt earlier? Was any learning saved?
 
+Every time you run the prompt, you are training a new model.
+
+How do you run validation tests?
 
 
 
