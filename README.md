@@ -71,12 +71,76 @@ Let's see how well we can do using in-context learning.
 
 ### Test Set
 
-Examine the [test set](negotiation-testing-prompt) of negotiation statements. 
+Examine the [test set](negotiation-testing-prompt) of negotiation statements. Can you determine which category the sentences belong in?
+
+Examine the [test set answers](negotiation-testing-prompt-answers). How did you do?
+
+What could help you do better with the task?
+
+### Training Prompt
+
+Examine the [training prompt](negotiation-training-prompt). Notice that the prompt includes:
+- descriptions of each of the categories
+- examples of each of the categories.
+
+This is an example of in-context learning. In other iterations, we have simply supplied examples (dozens for each). For GPT4, this type of prompt has worked best. 
+
+Open the Chat Playgound and select GPT4-32.
+
+Paste in the training prompt. It should return a summary of the categories. Give a summary of 19 categories? If not, please raise your hand and share what it returned. If it returned fewer than 19 categories, the learning has failed, you'll want to clear the chat and restart. 
+
+### Testing Prompt
+
+Now that the training prompt has successfully run, the model is ready to apply what it has learned. 
+
+Paste the [test set](negotiation-testing-prompt) into the chat window. 
+
+Did it return 20 sentences? How did it do?
+
+How could we ensure the model is performing well?
+
+### Comparison of Traditional Model Training and In-Context Training
+
+Here is the performance of a model trained in the traditional manner over the span of several days (hours of GPU compute):
+![image](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/7e2e97af-19da-43cb-8db2-c076ea6e150d)
+
+
+Here is the performance of the model trained in the manner we just carried out, using the same prompt:
+
+![image](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/f50f02fd-648c-4a1d-9f6e-f398301ece59)
+
+This model was "trained" in less than one minute, and performance on par with human coders.
+
+### After the run
+
+Clear the chat, and rerun the [test set](negotiation-testing-prompt). 
+
+What happened?
+
+Why did it fail?
+
+Was the model trained when we ran the training prompt earlier? Was any learning saved?
+
+
+
+
 
 ## Long-form Text Summarization
 
-In the following example, you may use the provided text, or may choose your own. If you use your own text, be sure the source material is text-heavy, and does not exceed ~20K words. 
+In the following example, you may use the [provided text](erda-muse-feurzig), or you may choose your own. If you use your own text, be sure the source material is mostly text, and does not exceed ~20K words. 
+
+The provided text is a somewhat dense description of the character of Erda in Wagner's Ring. She is a complex being that seems all-knowing, but can also be confused and unable to function in the world. Ask for a summarization of the passages to get a sense of what Feurzig is conveying.
+
 
 ## Multiple-text Synthesis
 
+At times, I'm reminded of Erda when interacting with ChatGPT, especially when I run out of context (see the [description of this effect](beyond-context-effect)), but I've not successfully mapped out on my own what what the similarities are, and if one informs the other. 
+
+How might we use the long context of GPT4 32K to answer this?
+
+Try the long context to answer other questions synthesizing one or more longer text (so long as the total lenght is less than 32K tokens! You wouldn't want to end up like Erda!)
+
+# Summary
+
+Long-context models provide opportunities for in-context learning and deep analysis that cannot be accomplished with short-context models. 
 
