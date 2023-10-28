@@ -7,8 +7,7 @@ Prompt engineering powered by long contexts
 
 [Prof. Jules White](https://www.coursera.org/instructor/juleswhite), Director of the Future of Learning and Generative AI Institute, Vanderbilt University
 
-Prof. Jesse Spencer-Smith, Chief Data Scientist and Interim Director, Data Science Institute, Vanderbilty University
-
+[Prof. Jesse Spencer-Smith](https://www.vanderbilt.edu/datascience/person/jesse-spencer-smith/), Chief Data Scientist and Interim Director, Data Science Institute, Vanderbilty University
 
 
 ### Context Length
@@ -156,6 +155,9 @@ Long-context models provide opportunities for in-context learning and deep analy
 # Next Steps
 
 Join us at the Data Science Institute and the Future of Learning and Generative AI for upcoming events!
+
+![image](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/1621c348-e590-44dc-967f-ae729b5377e7)
+
 
 ![1](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/48e0eac3-ef63-4e83-8e6d-777d3760d398)
 ![3](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/081d7d18-9275-4ead-8d2d-5ac2850020fd)
