@@ -5,6 +5,12 @@ Prompt engineering powered by long contexts
 
 ## Background
 
+[Prof. Jules White](https://www.coursera.org/instructor/juleswhite), Director of the Future of Learning and Generative AI Institute, Vanderbilt University
+
+Prof. Jesse Spencer-Smith, Chief Data Scientist and Interim Director, Data Science Institute, Vanderbilty University
+
+
+
 ### Context Length
 
 When working with Large Language Models (LLMs), you often run up against a limit of the length of the conversation. LLMs have a limit to how much of a conversation they can attend to at one time, called the context length. The context length is a function of the model, and models that have long context lengths require significantly more compute power, and are therefore more expensive to use. 
@@ -146,4 +152,13 @@ Try the long context to answer other questions synthesizing one or more longer t
 # Summary
 
 Long-context models provide opportunities for in-context learning and deep analysis that cannot be accomplished with short-context models. 
+
+# Next Steps
+
+Join us at the Data Science Institute and the Future of Learning and Generative AI for upcoming events!
+
+![1](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/48e0eac3-ef63-4e83-8e6d-777d3760d398)
+![3](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/081d7d18-9275-4ead-8d2d-5ac2850020fd)
+![4](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/1f582587-f99a-45dc-9e90-ee2c7d66525c)
+
 
