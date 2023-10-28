@@ -3,7 +3,6 @@ Prompt engineering powered by long contexts
 
 # https://bit.ly/long-context
 
-## Background
 
 [Prof. Jules White](https://www.coursera.org/instructor/juleswhite), Director of the Future of Learning and Generative AI Institute, Vanderbilt University
 
@@ -12,6 +11,22 @@ Prompt engineering powered by long contexts
 
 ![image](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/942ed97c-6020-4fa9-8f0b-5653f18a4eb8)
 
+## Setup
+
+Please go to your portal, [https://oai.azure.com/portal](https://oai.azure.com/portal).
+
+Select Chat Playground
+
+![image](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/2b130923-6780-46c0-99ea-8051b4a86d7f)
+
+Select GPT4 32K for your configuration:
+
+![image](https://github.com/vanderbilt-data-science/prompt-eng-long-context/assets/5521243/0e03315b-5e1a-40bc-8a6a-8869322f63f0)
+
+
+Raise your hand if you don't see this.
+
+## Background
 
 ### Context Length
 
